@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Final Project - Business Webpage</title>
+    <link href="home_layout.css" rel="stylesheet" />
+    <link href="home_styles.css" rel="stylesheet" />
+    <link href="contact_styles.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Alma's Cake Shop</h1>
+        <nav class="horizontalNagivation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cakes.html">Cakes</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <h1>Contact Us!</h1>
+        <p>Wanna ask about our prices? Got a comment to leave for us? Or are you looking to order a cake for a special someone
+           on their special day? You can contact us at (956) 555-0414, or leave us an email at almacakeshop@example.com</p>
+        <p>For organizations, schools, events, etc., you can fill the form below to get in touch with us and we'll
+           get back with you A.S.A.P with estimate prices, styles of cakes and all the other good stuff.</p>
+        <p>NOTICE: We only handle orders here in the Rio Grande Valley.</p>
+    </article>
+
+    <form id="survey" action="http://example.com/redball/survey" method="post">
+        <fieldset id="custInfo">
+            <div class="formRow">
+                <label for="name">Name*</label>
+                <input name="custName" id="name" type="text" placeholder="Example: John Smith" required />
+            </div>
+            <div class="formRow">
+                <label for="organization">Organization Name*</label>
+                <input name="orgName" id="organization" type="text" placeholder="Example: South Texas College" required />
+            </div>
+            <div class="formRow">
+                <label for="street">Street address</label>
+                <input name="custStreet" id="street" type="text" />
+            </div>
+            <div class="formRow">
+                <label for="city">City</label>
+                <input name="custCity" id="city" type="text" placeholder="Example: McAllen" />
+            </div>
+            <div class="formRow">
+                <label for="zip">Postal code</label>
+                <input name="custZip" id="zip" type="text" placeholder="Example: 78589" pattern="^\d{5}(-\d{4})?$" />
+            </div>
+            <div class="formRow">
+                <label for="phone">Phone number</label>
+                <input name="custPhone" id="phone" type="tel" placeholder="Example: (956) 555-0414" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$" />
+            </div>
+            <div class="formRow">
+                <label for="mail">E-mail*</label>
+                <input name="custEmail" id="mail" type="email" required />
+            </div>
+            <label for="commBox">Tell us about your plans:</label>
+            <textarea name="custExp" id="commBox"></textarea>
+            <div id="buttons">
+                <input type="submit" value="Send Email" />
+            </div>
+        </fieldset>
+    </form>
+
+        <footer>
+            <p>
+                <h1>Business Information</h1>
+                420 Business 83
+                San Juan, Texas 78589
+                (956) 555-0414 <br />
+                Mon - Fri: 8 A.M. - 5 P.M.
+                Sat - Sun: Closed.<br />
+                Closed on Eastern Day, Thanksgiving, and Christmas Day
+            </p>
+        </footer>
+</body>
+</html>

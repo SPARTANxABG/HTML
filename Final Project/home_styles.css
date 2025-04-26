@@ -1,0 +1,13 @@
+﻿@charset "utf-8";
+
+html
+{
+    background-color: hsl(303, 96%, 84%);
+}
+
+body
+{
+    color: rgb(91, 91, 91);
+    background-color: ivory;
+    font-family: Verdana, Geneva, sans-serif;
+}

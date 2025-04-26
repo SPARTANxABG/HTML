@@ -1,0 +1,64 @@
+﻿@charset "utf-8";
+
+body
+{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1020px;
+    min-width: 640px;
+}
+
+body > header > h1
+{
+    text-align: center;
+    font-family: Champane, cursive;
+    font-size: 40px;
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li 
+{
+    float: left;
+    width: 16.6681%;
+}
+
+li a 
+{
+    display: block;
+    padding: 15px;
+    background-color: #f4aaff;
+    text-decoration: none;
+    font-family: Champagne, cursive;
+}
+
+body > aside
+{
+    width: 20%;
+    float: left;
+    margin: 0 1.5% 0 0;
+}
+
+h1 
+{
+    text-align: center;
+    font-family: Champagne, cursive;
+    font-size: 30px
+}
+
+footer
+{
+    text-align: center;
+    background-color: #f4aaff;
+}
+
+footer > h1
+{
+    font-size: 22px;
+}

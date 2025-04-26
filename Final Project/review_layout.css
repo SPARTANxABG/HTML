@@ -1,0 +1,18 @@
+﻿section 
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+}
+
+section > article > img 
+{
+    width: 300px;
+    height: 200px;
+}
+
+section > h1 > a 
+{
+    text-decoration: none;
+    color: #4a4848;
+}

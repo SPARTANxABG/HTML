@@ -1,0 +1,46 @@
+﻿form#survey 
+{
+    display: block;
+}
+
+form#survey > fieldset 
+{
+    background-color: #f4aaff;
+    border-radius: 20px;
+    flex: 1 1 300px;
+    font-size: 0.85em;
+    padding: 10px;
+    margin: 10px;
+}
+
+div.formRow 
+{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 7px 0px;
+}
+
+div.formRow > * 
+{
+    flex: 1 1 150px;
+}
+
+div#buttons 
+{
+    text-align: center;
+    width: 100%;
+}
+
+input[type='submit'], input[type='reset'] 
+{
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 15px;
+}
+
+textarea 
+{
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+}
